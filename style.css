@@ -1,0 +1,11 @@
+:root {
+  --red:    #E87AA4;
+  --green:  #B8E297;
+  --blue:   #42C1F7;
+}
+
+body {
+  font-family: "San Francisco", sans-serif;
+  color: white;
+  background-image: linear-gradient(var(--red), var(--green), var(--blue));
+}
