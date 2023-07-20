@@ -1,11 +1,28 @@
 :root {
-  --red:    #E87AA4;
-  --green:  #B8E297;
-  --blue:   #42C1F7;
+  --background-gradient-top:    #E87AA4;
+  --background-gradient-middle: #B8E297;
+  --background-gradient-bottom: #42C1F7;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
   font-family: "San Francisco", sans-serif;
   color: white;
-  background-image: linear-gradient(var(--red), var(--green), var(--blue));
+  background-image: linear-gradient(
+    var(--background-gradient-top),
+    var(--background-gradient-middle),
+    var(--background-gradient-bottom)
+  );
+  /* vertical-align: */
+  text-align: center;
+  vertical-align: middle;
 }
+
+ #app-icon {
+   filter: drop-shadow(4pt 4pt 3pt gray);
+   width: 128px;
+   height: 128px;
+ }
