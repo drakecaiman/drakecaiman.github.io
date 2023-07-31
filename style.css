@@ -16,9 +16,22 @@ body {
     var(--background-gradient-middle),
     var(--background-gradient-bottom)
   );
-  /* vertical-align: */
-  text-align: center;
-  vertical-align: middle;
+  /* animation: 10s ease infinite normal both gradient-scroll; */
+  text-align:     center;
+  display:        flex;
+  align-items:    center;
+  justify-content:  center;
+}
+
+html {
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  margin: 8px;
 }
 
  #app-icon {
@@ -26,3 +39,41 @@ body {
    width: 128px;
    height: 128px;
  }
+
+@keyframes gradient-scroll {
+  from {
+    /* background- */
+  }
+
+  /* from {
+    background-image: linear-gradient(
+      var(--background-gradient-top),
+      var(--background-gradient-middle),
+      var(--background-gradient-bottom)
+    );
+  }
+
+  33% {
+    background-image: linear-gradient(
+      var(--background-gradient-middle),
+      var(--background-gradient-bottom),
+      var(--background-gradient-top)
+    );
+  }
+
+  66% {
+    background-image: linear-gradient(
+      var(--background-gradient-bottom),
+      var(--background-gradient-top),
+      var(--background-gradient-middle)
+    );
+  }
+
+  to {
+    background-image: linear-gradient(
+      var(--background-gradient-top),
+      var(--background-gradient-middle),
+      var(--background-gradient-bottom)
+    );
+  } */
+}
