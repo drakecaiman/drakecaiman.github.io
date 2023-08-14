@@ -4,6 +4,7 @@
   --background-gradient-top:    #E87AA4;
   --background-gradient-middle: #B8E297;
   --background-gradient-bottom: #42C1F7;
+  /* TODO: Gradient var */
 }
 
 a {
@@ -14,6 +15,7 @@ a {
 body {
   font-family: "Poppins", "San Francisco", sans-serif;
   color: white;
+  min-height: 300px;
   background-image: linear-gradient(
     var(--background-gradient-top),
     var(--background-gradient-middle),
